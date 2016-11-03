@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Fonts */
+
+
+/* Main Style */
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+
+}
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+.row {
+	padding: 10px 20px;
+}
+/* Header */
+.mainHeader {
+	background-color: #4bb748;
+	height: 65px;
+	padding: 10px;
+}
+.title {
+	color: #c0aeab;
+}
+#logo {
+	color: #fff;
+	float: left;
+}
+#logo a, #logo a:link, #logo a:hover, #logo a:active, #logo a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+.logoTop {
+	font-size: 30px;
+}
+.logoBottom {
+	font-size: 16px;
+	line-height: 16px;
+}
+#mainNav{
+	float: right;
+	color: #FFF;
+	height: 50px;
+	margin-top: 15px;
+}
+#skipFirst {
+	width: 30px;
+	height: 30px;
+
+}
+#skipBack {
+	width: 30px;
+	height: 30px;
+}
+#currentProject {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+		display: inline-block;
+		padding: 0 35px;
+		background: transparent;
+		margin-top: -10px;
+}
+#currentProject a {
+	color: #FFF;
+	line-height: 1em;
+}
+#currentProject a:hover, #currentProject a:active, #currentProject a:focus {
+	background-color: transparent;
+	color: #CCC;
+}
+#skipFwd {
+	width: 30px;
+	height: 30px;
+}
+#skipLast {
+	width: 30px;
+	height: 30px;
+}
+#contactMe {
+	font-size: 18px;
+	font-weight: bold;
+	color: #4BB748;
+		display: inline-block;
+		padding: 0 35px;
+		background: #FFF;
+		margin-top: -10px;
+}
+#contactMe a {
+	color: #4BB748;
+	background-color: transparent;
+}
+#contactMe a:hover, #contactMe a:active, #contactMe a:focus {
+	background-color: transparent;
+	color: #CCC;
+}
+.controls {
+	border: 3px solid #FFF;
+	text-align: center;
+	display: inline-block;
+	height: 26px;
+	border-radius: 100%;
+	margin-top: -10px;
+	padding-top: 3px;
+}
+.dropdown-menu {
+	position: relative;
+}
+.dropdown-menu li {
+	color: #000;
+	padding: 10px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #4bb748;
+    text-decoration: none;
+    background-color: #CCC;
+    outline: 0;
+}
+.dropdown-menu li.active {
+	background-color: #CCC;
+}
+#currentProject ul.dropdown-menu li a:link, #currentProject ul.dropdown-menu li a:visited {
+	color: #000;
+	padding: 3px 0px;
+	font-weight: bold;
+}
+#currentProject ul.dropdown-menu li a:hover, #currentProject ul.dropdown-menu li a:active {
+	color: #4bb748;
+	padding: 3px 0px;
+	font-weight: bold;
+}
+ /* End Header */
+
+ /*  Homepage  */
+.homeContent .row {
+	margin: 30px auto;
+}
+img.thumbnail {
+	width: 100%;
+	height: 100%;
+}
+ /*  End Homepage */
+
+ /*  Main Project  */
+.mainContent {
+}
+#heroImage {
+	/* remove this for final project */
+	background: url('../images/01/TravelWith-hero.png');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+}
+.videoBox {
+	padding: 10px 0!important;
+}
+.mainText {
+	font-size: 1em;
+	color: #000;
+	line-height: 1.2em;
+	margin: -20px;
+  z-index: 3;
+  padding: 10px 10px 40px;
+}
+.shadowbox {
+	background-color: #FFF;
+  box-shadow: 0px 0px 5px 1px rgba(45,45,45,0.3);
+  padding: 30px 10px;
+}
+h2.projectTitle {
+	font-size: 1.6em;
+	margin: 0.5em 0;
+	color: #4BB748;
+}
+h3.projectGenre {
+	font-size: 1.2em;
+	margin: 0.2em 0 1em;
+}
+.projectDescription {
+	font-family: "Merriweather";
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+h4.excerpt {
+	font-family: "Montserrat";
+	font-size: 1.4em;
+	line-height: 1.8em;
+	color: #FFF;
+	vertical-align: middle;
+}
+
+.excerpt-red {
+	background-color: #C45F43;
+	padding: 40px;
+	height: 250px;
+	margin: 15px 0;
+}
+.excerpt-green {
+	background-color: #4bb748;
+	padding: 40px;
+	height: 250px;
+	margin: 15px 0;
+}
+.excerpt-blue {
+	background-color: #47A6CE;
+	padding: 40px;
+	height: 250px;
+	margin: 15px 0;
+}
+.excerpt-purple {
+	background-color: #8a41C4;
+	padding: 40px;
+	height: 250px;
+	margin: 15px 0;
+}
+.extra {
+		margin: 15px 0;
+}
+.extra img {
+	width: 100%;
+}
+/*  End Project  */
+
+
+/*  Footer  */
+.footer {
+	background-color: #aaa;
+	padding: 20px 0;
+	color: white;
+
+}
+.footer .nav li {
+	padding-right: 10px;
+}
+.footer .nav li a {
+	color: white;
+}
+
+.footer .nav li a:hover {
+	color: #4bb748 ;
+}
+.footer p {
+	padding-top: 10px;
+}

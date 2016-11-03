@@ -1,0 +1,117 @@
+{"portfolio":
+[
+	{
+		"name": "FlightStats Mobile App",
+		"genre":"Mobile App for iOS (iPhone and Apple Watch) and Android",
+		"description":"FlightStats, a provider of global flight data, needed an updated mobile app to both add new features and implement the new branding of their apps. The FlightStats app lets a user search for and track the status of commercial flights, look up airport conditions, and save their flight searches for future reference. With the release of the Apple Watch, an extension was added to the iOS app to include flight tracking for Apple Watch based on saved flights in the FlightStats app. Much of this content was then used to create the FlightStats mobile app, which offered similiar functionality, for those who would not (or could not) download the app.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "TravelWith Mobile App",
+		"genre":"Mobile Travel App for iOS",
+		"description":"TravelWith is an app which makes managed corporate travel easy and informative by connecting the travel agent and traveler together using the same system. With TravelWith, a user could log in to an agency-specific account, view upcoming trips, see disruptions and delays in real-time, and connect to a travel agent who could resolve any disruptions to travel. The system was also designed to be co-branded, with stylesheets built-in to support custom branding for different travel agencies, which would change based on what agency or corporate office the user traveled with.",
+		"images": [
+			"images/01/TravelWith-hero.png"
+		]
+	},
+		{
+		"name": "FlightStats DevCenter",
+		"genre":"Responsive Website",
+		"description":"The FlightStats DevCenter, where developers can go to access FlightStats’ flight data via API, was in need of an overhaul following the release of all new APIs and a rebranding of the main FlightStats property. With the help of senior designer Matt Fernandez, the DevCenter was rebranded from a site with poor user experience and a glut of unnecessary information into an easy-to-navigate site to guide software developers to the resources they needed. The site included the popular Swagger framework for \"interactive documentation\", which rendered the result of a particular API call in real time. This framework was stylized with CSS to match the FlightStats branding standard.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "FlightStats Trip Center",
+		"genre":"Responsive Web Application",
+		"description":"FlightStats needed a new tool for its agency customers, as its old tool was using a legacy code base that was very out of date with its newer applications. This tool became known as Trip Center, and it is a tool that travel agents can use to monitor and resolve travel issues, such as flight cancellations, delays, and missed connections, in real time. Contributing to some of the challenges of this app were a need to support older versions of Internet Explorer, as many corporate travel agents tended to use them, as well as a need to have detailed, actionable information shown on screens of all sizes, including mobile browsers. Trip Center solves this by being simple as possible while still including features like keyboard shortcuts to make it intuitive for travel agents, who often use multiple applications alongside Trip Center to resolve flight issues.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "Urbo Book",
+		"genre":"Size: Booklet 5.75\" x 11\" flat, 3.25\" × 5.25\" folded | Cards 3\" × 5\"",
+		"description":"Urbo is a place branding solution for the Downtown Portland
+Neighborhood Association. Using a brand \"minibook,\" a new look
+for downtown Portland was established, which used a combination
+of high-contrast lomographic images and a sleek modern style to
+appeal to an audience that enjoys finding new places to eat, shop, and
+explore, right in the heart of Portland. The minibook includes collectible cards of some of Portland’s lesser known well-loved destinations.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "Urbo Ads and Mobile App",
+		"genre":"Ads 9\" × 12\" | Mobile App 960 × 480 pixels (on iPhone)",
+		"description":"To complement the style and feel of Urbo’s brand minibook, an ad
+campaign as well as a mobile app was created, directly tying back to
+the book. The ads challenge the viewer to find all of the hidden images
+in scenes of downtown Portland, referring to what the audience
+would find in that particular place. To enhance the brand, a number
+of Urbo logos would be placed in the area for the audience to find
+and capture on their smartphone, revealing new and interesting
+locations to explore.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "Equus Films Branding",
+		"genre":"Corporate Branding and Video Production",
+		"description":"A new film studio located in Oregon, Equus
+Films was created with the roots of cinema in mind: with independent
+studios creating works of art on the silver screen. The logo and
+intro sequence are inspired by Muybridge’s \"Running Horse,\" one of
+the first innovations in creating motion pictures.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "Skream at Moda Leicester",
+		"genre":"Poster, Ticket, CD Cover, Sticker, and VIP Pass",
+		"description":"LiveTour UK, a music production company based in London, worked
+with electronic artist Skream to create a live recording of his show at
+Moda Leicester. Skream is known for his improvisational music
+stylings, but his commercially produced tracks lack that. Varied line
+style, elements that come off the page, and a space theme all
+contribute to the magic of Skream’s live performances.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "Robo Sharp Packaging",
+		"genre":"13.25\" × 9.5\" flat, 2\" × 3\" × 4\" folded",
+		"description":"Kikkerland, a novelty item company, recently acquired a
+distribution center in New York and was looking to change its
+packaging in the interest of sustainability. A grid design was used
+to reflect the shapes present on the robot. The package is designed
+for reuse, and is tabbed and printed on both sides: the user can then
+reverse the box and reveal the humorous graphic which becomes a
+display piece and accessory to the toy itself.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	},
+		{
+		"name": "AIGA A2Z Collaborative Typography",
+		"genre":"Digital, approx. 4\" tall",
+		"description":"In April of 2011, AIGA Member Cliff Little started a project that came to be known
+as AIGA A2Z. It is a semi-quarterly collaborative experimental
+typography project that usually involves a theme of some sort. I have
+participated in four of these such events, each with a different theme.
+These four designs will be published in a collection that showcases
+selected letterforms from the themes as well as the designers who
+collaborated to create these letterforms.",
+		"images": [
+			"directory/image1.jpg", "directory/image2.jpg"
+		]
+	}
+]
+}
